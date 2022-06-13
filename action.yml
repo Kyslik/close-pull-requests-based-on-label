@@ -1,0 +1,9 @@
+name: 'Close pull requests with label'
+description: 'This is an Action that closes pull requests based on the provided label'
+author: 'Martin Kiesel'
+branding:
+  icon: 'archive'
+  color: 'red'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
